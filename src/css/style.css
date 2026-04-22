@@ -26,7 +26,7 @@ a{
   text-decoration: none;
 }
 
-.navibar{
+nav{
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -42,7 +42,7 @@ a{
   box-shadow: 0,0,0,1, rgb(225, 225, 225);
 }
 
-.navibar a{
+nav a{
   background-color: chocolate;
   width: 10%;
   height: fit-content;
@@ -54,7 +54,7 @@ a{
   font-size: 20px;
 }
 
-.navibar a:hover{
+nav a:hover{
   transition: 0.25s;
   transform: translateY(-4px);
   box-shadow: rgb(255, 255, 255);
