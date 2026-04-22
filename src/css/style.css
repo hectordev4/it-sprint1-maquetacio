@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif; /* Way better than Times New Roman */
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: #cccccc;
   background-color: #171030;
@@ -53,10 +53,6 @@ body {
   font-size: 1rem;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
-}
-
-.booking-bar input:last-of-type {
-  border-right: none;
 }
 
 .btn-search {
