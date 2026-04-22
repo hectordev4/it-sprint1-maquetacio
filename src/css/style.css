@@ -1,7 +1,11 @@
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -57,5 +61,123 @@ a{
   box-shadow: rgb(255, 255, 255);
 }
 
+/* Hero Section */
+.hero {
+  height: 80vh;
+  background: linear-gradient(to right, rgba(0, 32, 63, 0.8), rgba(0, 32, 63, 0.2)), 
+              url('https://cdn.fstoppers.com/wp-content/uploads/2013/08/aerial-cinematography-6-710x383.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  max-width: 600px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.booking-bar {
+  display: flex;
+  background: white;
+  padding: 15px;
+  gap: 5px;
+  border-radius: 50px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  width: fit-content;
+}
+
+.booking-bar input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+  outline: none;
+  font-size: 1rem;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-search {
+  background: #FE7C09;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-search:hover {
+  background: #d35400;
+  transform: scale(1.05);
+}
+
+/* Destinations Section */
+.destinations {
+  padding: 80px 10% 40px;
+  text-align: center;
+}
+
+.dest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.dest-card {
+  background: #f8fbff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  transition: transform 0.3s;
+  border: 1px solid #eef2f7;
+  color: #000000;
+}
+
+.dest-card:hover {
+  transform: translateY(-10px);
+}
+
+.image-placeholder-tokyo {
+  height: 200px;
+  background-color: #d1e3f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 1px 1px #E2E2E2;
+  background-image: url(../assets/img/tokyo.jpg);
+}
+
+.image-placeholder-paris {
+  height: 200px;
+  background-color: #d1e3f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 1px 1px #E2E2E2;
+  background-image: url(../assets/img/paris.jpg);
+}
+
+.image-placeholder-maldives {
+  height: 200px;
+  background-color: #d1e3f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 1px 1px #E2E2E2;
+  background-image: url(../assets/img/maldives.webp);
+}
 
 
