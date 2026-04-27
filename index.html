@@ -3,10 +3,78 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tittle name</title>
-    <!-- Aquí likeas tu html con tu css -->
+    <title>Viatges Pastanaga</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Aquí va tu esqueleto HTML -->
+    <header>
+      <img src="./src/assets/icons/logo+name.png" alt="logo and name from viatges pastanaga">
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Viatges</a>
+      <a href="#">Agenda</a>
+      <a href="#">Login</a>
+    </nav>
+    
+    <main class="travel-body">
+      <section class="hero">
+        <div class="hero-content">
+          <h1>The World Is Yours To Explore</h1>
+          <p>Premium flights to over 150 destinations worldwide.</p>
+          
+          <div class="booking-bar">
+            <input type="text" placeholder="From where?">
+            <input type="text" placeholder="To where?">
+            <input type="date">
+            <button class="btn-search">Search Flights</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="dest-grid">
+          <div class="dest-card">
+            <div class="image-placeholder-tokyo">Tokyo</div>
+            <h3>Tokyo, Japan</h3>
+            <p>Starting from 899€</p>
+          </div>
+          <div class="dest-card">
+            <div class="image-placeholder-paris">Paris</div>
+            <h3>Paris, France</h3>
+            <p>Starting from 650€</p>
+          </div>
+          <div class="dest-card">
+            <div class="image-placeholder-maldives">Maldives</div>
+            <h3>The Maldives</h3>
+            <p>Starting from 1,200€</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-legal">
+        <p>
+          <strong>Legal Disclaimer:</strong> The information provided on this website is for 
+          general informational purposes only. While we strive for accuracy, we make no 
+          warranties regarding the completeness or reliability of this content. 
+          Any action you take based on this information is strictly at your own risk.
+        </p>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2026 [Viatges Pastanaga]. All rights reserved.
+      </div>
+    </footer>
   </body>
 </html>
